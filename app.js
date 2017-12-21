@@ -13,7 +13,7 @@ function Question(scenerio, a1, a2, a3) {
   this.scenerio = scenerio;
   this.a1 = a1;
   this.a2 = a2;
-  this........
+  this........;
   //continue
 };
 
