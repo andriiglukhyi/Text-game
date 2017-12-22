@@ -19,3 +19,17 @@ div{
 div:last-child {
   margin-right: 0px;
 }
+
+header p {
+  font-size: 68px;
+  font-family: 'Star Jedi', arial;
+  text-shadow: 4px 4px 4px #FEEB32;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+}
+body {
+    background-image: url("pic/back.jpg");
+}
