@@ -33,3 +33,9 @@ header p {
 body {
     background-image: url("pic/back.jpg");
 }
+
+div img {
+  width: 300px;
+  height: 300px;
+  /*opacity: 0.3;*/
+}
