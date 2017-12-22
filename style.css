@@ -1,0 +1,21 @@
+*{
+  outline: 1px solid prange;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+div{
+  width: 300px;
+  display: inline-block;
+  float:left;
+  height: 700px;
+  border: solid 1px black;
+  margin: 0px 27px 0px 0px;
+}
+
+div:last-child {
+  margin-right: 0px;
+}
