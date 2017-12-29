@@ -14,11 +14,30 @@ div{
   float:left;
   height: 300px;
   /* border: solid 1px black; */
-  margin: 0px 27px 0px 0px;
+  margin: 0px 20px 0px 0px;
 }
 
 div:last-child {
   margin-right: 0px;
+}
+.questions {
+  clear: both;
+  font-size: 24px;
+  background-color: black;
+  padding: 10px;
+
+}
+.questions li {
+  margin: 10px;
+  text-align: left;
+  border: 1px solid yellow;
+  padding: 5px;
+}
+
+.questions ul li {
+  width: 700px;
+  text-align: center;
+  margin: 10px auto;
 }
 
 header p {
