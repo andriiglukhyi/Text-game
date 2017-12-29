@@ -5,6 +5,7 @@ body {
   width: 960px;
   margin: 0 auto;
   color: #FEEB32;
+  background-image: url("pic/back.jpg");
 }
 
 
@@ -24,19 +25,18 @@ div:last-child {
   clear: both;
   font-size: 24px;
   background-color: black;
-  padding: 10px;
-
 }
 .questions li {
-  margin: 10px;
-  text-align: left;
+  margin-bottom: 10px;
+  text-align: center;
   border: 1px solid yellow;
   padding: 5px;
 }
-
+.questions ul p {
+  margin:10px 35px 20px 35px;
+}
 .questions ul li {
   width: 700px;
-  text-align: center;
   margin: 10px auto;
 }
 
@@ -47,11 +47,6 @@ header p {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-
-
-}
-body {
-    background-image: url("pic/back.jpg");
 }
 
 div img {
