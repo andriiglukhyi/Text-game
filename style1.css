@@ -1,0 +1,61 @@
+*{
+  outline: 1px solid prange;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+header p {
+  font-size: 68px;
+  font-family: 'Star Jedi', arial;
+  text-shadow: 4px 4px 4px #FEEB32;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+}
+body {
+    background-image: url("pic/back.jpg");
+}
+
+div {
+  width: 450px;
+  float:left;
+
+}
+
+
+.ext-bar {
+  width: 900px;
+  height: 300px;
+}
+div img {
+display: inline-block;
+width: 300px;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+h1{
+  font-size: 68px;
+  font-family: 'Star Jedi', arial;
+  text-shadow: 4px 4px 4px #FEEB32;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear;
