@@ -4,6 +4,7 @@
 body {
   width: 960px;
   margin: 0 auto;
+  color: #FEEB32;
 }
 
 
@@ -11,19 +12,38 @@ div{
   width: 300px;
   display: inline-block;
   float:left;
-  height: 700px;
-  border: solid 1px black;
-  margin: 0px 27px 0px 0px;
+  height: 300px;
+  /* border: solid 1px black; */
+  margin: 0px 20px 0px 0px;
 }
 
 div:last-child {
   margin-right: 0px;
 }
+.questions {
+  clear: both;
+  font-size: 24px;
+  background-color: black;
+  padding: 10px;
+
+}
+.questions li {
+  margin: 10px;
+  text-align: left;
+  border: 1px solid yellow;
+  padding: 5px;
+}
+
+.questions ul li {
+  width: 700px;
+  text-align: center;
+  margin: 10px auto;
+}
 
 header p {
   font-size: 68px;
   font-family: 'Star Jedi', arial;
-  text-shadow: 4px 4px 4px #FEEB32;
+  text-shadow: 4px 4px 4px white;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -38,4 +58,12 @@ div img {
   width: 300px;
   height: 300px;
   /*opacity: 0.3;*/
+}
+footer {
+  clear: both;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
 }
