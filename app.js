@@ -1,8 +1,6 @@
 'use strict'
 
-var data = [];
-var data1 = [];
-var score = 60;
+
 var form = document.getElementById('form1');
 // answers.push(answer1);
 form.addEventListener('submit', getanswers);
@@ -10,10 +8,13 @@ form.addEventListener('submit', getanswers);
 
 function getanswers(){
   event.preventDefault();
+  var data = [];
+  var data1 = [];
+  var score = 60;
   for(var i=1; i<11; i++){
     var answer = document.getElementsByName('answer'+[i]);
     data.push(answer);
-    console.log(data);
+    // console.log(data);
   }
   for (var question=0; question<data.length; question++){
     for(var answer = 0; answer<data[question].length; answer++ ){
@@ -23,7 +24,8 @@ function getanswers(){
     }
   }
   for(var i=0; i<data1.length; i++ ){
-    score += data1[i]
+    score += data1[i];
+    console.log(score);
   }
 }
 
