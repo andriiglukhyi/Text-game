@@ -1,21 +1,34 @@
 'use strict'
 
-var answers = [];
-var answer;
-var answer1 =  document.getElementsByName('answer1');
+var data = [];
+var data1 = [];
+var score = 60;
+var form = document.getElementById('form1');
+// answers.push(answer1);
+form.addEventListener('submit', getanswers);
+
 
 function getanswers(){
-  for(var i=0; i<10; i++){
-    answer[i] = document.getElementsByName('answer[i]');
-    answers.push(answer[i]);
-    console.log(answers)
+  event.preventDefault();
+  for(var i=1; i<11; i++){
+    var answer = document.getElementsByName('answer'+[i]);
+    data.push(answer);
+    console.log(data);
+  }
+  for (var question=0; question<data.length; question++){
+    for(var answer = 0; answer<data[question].length; answer++ ){
+      if (data[question][answer].checked === true){
+        data1.push(parseInt(data[question][answer].value));
+      }
+    }
+  }
+  for(var i=0; i<data1.length; i++ ){
+    score += data1[i]
   }
 }
 
 
-var result = 60;
 
-form1.addEventListener('Submit', getanswers);
 
 // function counter(){
 //   result+= answer1[0].value;
