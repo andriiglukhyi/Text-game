@@ -62,3 +62,19 @@ footer {
   margin: 50px;
   padding: 10px;
 }
+input {
+    visibility:hidden;
+  display:block;
+}
+label {
+    cursor: pointer;
+}
+input:checked + label {
+    color: red;
+}
+fieldset{
+  margin-bottom: 10px;
+text-align: center;
+border: 1px solid yellow;
+padding: 5px
+}
