@@ -3,8 +3,9 @@
 } */
 
 body {
-  background-image: url('pic/back.jpg');
+  font-family: Verdana, sans-serif;
   color: #FEEB32;
+  background-image: url('pic/back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -38,7 +39,13 @@ div img {
 }
 
 fieldset {
-  padding: 20px;
+  padding: 20px 70px;
+  height: 380px;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+fieldset p {
+  margin-bottom: 20px;
 }
 
 fieldset label {
