@@ -11,8 +11,22 @@ body {
   background-attachment: fixed;
 }
 
-/*
-div{
+header p {
+font-size: 68px;
+font-family: 'Star Jedi', arial;
+text-shadow: 4px 4px 4px white;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+ul img {
+width: 300px;
+height: 300px;
+/*opacity: 0.3;*/
+}
+
+ul {
   width: 300px;
   display: inline-block;
   float:left;
@@ -20,23 +34,64 @@ div{
   margin: 0px 20px 0px 0px;
 }
 
- div:last-child {
-  margin-right: 0px;
-}*/
 
-header p {
-  font-size: 68px;
-  font-family: 'Star Jedi', arial;
-  text-shadow: 4px 4px 4px white;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+ul:last-child {
+  margin-right: 0px;
 }
 
-div img {
-  width: 300px;
-  height: 300px;
-  /*opacity: 0.3;*/
+fieldset{
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid yellow;
+  height: auto+5px;
+  /* padding-bottom: 30px; */
+  padding: 30px 5px;
+}
+
+.questions {
+  clear: both;
+  font-size: 24px;
+  background-color: black;
+}
+
+.questions label {
+  display: block;
+  text-align: center;
+  border: 1px solid yellow;
+  padding: 5px;
+  width: 700px;
+  margin: 10px auto;
+}
+
+input {
+  visibility:hidden;
+  display:block;
+  width: 700px;
+}
+
+label {
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: red;
+}
+
+section div {
+  /* clear: both; */
+  width: 320px;
+  color: rgba(0, 0, 0, 0.541176);
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	/* height: 32px; */
+	letter-spacing: normal;
+  /* height: 150px; */
+	/* line-height: 32px; */
+	/* padding-top: 100px; */
+  margin: 0 auto;
+
 }
 
 fieldset {

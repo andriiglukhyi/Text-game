@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" type="text/css" href="material-gauge.css">
   <link href="http://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -11,16 +12,15 @@
     <p>Star Wars Morality quiz</p>
   </header>
   <main>
-    <!-- <div>
+    <ul>
       <img src="pic/yoda.jpg">
-    </div>
-    <div>
+    </ul>
+    <ul>
 
-    </div>
-    <div>
+    </ul>
+    <ul>
       <img src="pic/dart.jpg">
-    </div> -->
-
+    </ul>
     <form id="form1">
 
       <ul class="slides">
@@ -222,20 +222,22 @@
               <div class="slide">
                 <fieldset>
                   <p><button input type="submit">RESULTS</button></p>
-                  <div class="gauge gauge--liveupdate" id="gauge">
-                    <div class="gauge__container">
-                      <div class="gauge__marker"></div>
-                      <div class="gauge__background"></div>
-                      <div class="gauge__center"></div>
-                      <div class="gauge__data"></div>
-                      <img class="gauge__needle"  src="lightsaber.png">
-                    </div>
-                    <div class="gauge__labels mdl-typography__headline">
-                        <span class="gauge__label--low">Dark</span>
-                        <span class="gauge__label--spacer"></span>
-                        <span class="gauge__label--high">Light</span>
-                    </div>
-                </div>
+                  <section>
+                    <div class="gauge gauge--liveupdate" id="gauge">
+                      	<div class="gauge__container">
+                      		<div class="gauge__marker"></div>
+                      		<div class="gauge__background"></div>
+                      		<div class="gauge__center"></div>
+                      		<div class="gauge__data"></div>
+                      		<img class="gauge__needle"  src="lightsaber.png">
+                      	</div>
+                      	<div class="gauge__labels mdl-typography__headline">
+                          	<span class="gauge__label--low">Dark</span>
+                          	<span class="gauge__label--spacer"></span>
+                          	<span class="gauge__label--high">Light</span>
+                      	</div>
+                  	</div>
+                  </section>
                 </fieldset>
               </div>
           <div class="nav">
