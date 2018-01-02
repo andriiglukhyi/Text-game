@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="material-gauge.css">
   <!-- <script type="text/javascript" src="slide.js"></script> -->
   <link href="http://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
 </head>
@@ -11,15 +12,15 @@
     <p>Star Wars Morality quiz</p>
   </header>
   <main>
-    <div>
+    <ul>
       <img src="pic/yoda.jpg">
-    </div>
-    <div>
+    </ul>
+    <ul>
 
-    </div>
-    <div>
+    </ul>
+    <ul>
       <img src="pic/dart.jpg">
-    </div>
+    </ul>
     <form id="form1">
       <fieldset class="questions">
           Two Mon Calamari and a Human approach you. The Human nods at you and waits, as if you are going to do something. After several seconds, he looks at you and states, “Are we just going to stand here or are we going to do this?”
@@ -118,6 +119,23 @@
 
       <button input type="submit">get result</button>
       </form>
+      <!-- <script src="material-gauge.js"></script> -->
+      <section>
+        <div class="gauge gauge--liveupdate" id="gauge">
+          	<div class="gauge__container">
+          		<div class="gauge__marker"></div>
+          		<div class="gauge__background"></div>
+          		<div class="gauge__center"></div>
+          		<div class="gauge__data"></div>
+          		<img class="gauge__needle"  src="lightsaber.png">
+          	</div>
+          	<div class="gauge__labels mdl-typography__headline">
+              	<span class="gauge__label--low">Dark</span>
+              	<span class="gauge__label--spacer"></span>
+              	<span class="gauge__label--high">Light</span>
+          	</div>
+      	</div>
+      </section>
 
 </main>
   <footer><p>Created by: Alexander Bowers, Andrii Glukhyi, Gene Pieterson, & Bessie Arino</p>
