@@ -1,11 +1,10 @@
-*{
-  outline: 1px solid prange;
-}
+/* *{
+  outline: 1px solid orange;
+} */
+
 body {
-  /* width: 960px;
-  margin: 0 auto; */
+  background-image: url('pic/back.jpg');
   color: #FEEB32;
-  background-image: url("pic/back.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -36,6 +35,14 @@ div img {
   width: 300px;
   height: 300px;
   /*opacity: 0.3;*/
+}
+
+fieldset {
+  padding: 20px;
+}
+
+fieldset label {
+  padding: 10px;
 }
 
 footer {
