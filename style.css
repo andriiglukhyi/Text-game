@@ -1,51 +1,12 @@
 *{
   outline: 1px solid prange;
 }
+
 body {
   width: 960px;
   margin: 0 auto;
   color: #FEEB32;
   background-image: url("pic/back.jpg");
-}
-
-
-div{
-  width: 300px;
-  display: inline-block;
-  float:left;
-  height: 300px;
-  /* border: solid 1px black; */
-  margin: 0px 20px 0px 0px;
-}
-
-div:last-child {
-  margin-right: 0px;
-}
-fieldset{
-  margin-bottom: 30px;
-  text-align: center;
-  border: 1px solid yellow;
-  height: auto+5px;
-  /* padding-bottom: 30px; */
-  padding: 30px 5px;
-}
-.questions {
-  clear: both;
-  font-size: 24px;
-  background-color: black;
-}
-.questions label {
-  text-align: center;
-  border: 1px solid yellow;
-  padding: 5px;
-  width: 700px;
-  margin: 10px auto;
-  margin-bottom: 10px;
-}
-.questions input {
-  margin:10px 35px 20px 35px;
-}
-.questions ul li {
 }
 
 header p {
@@ -62,6 +23,58 @@ div img {
   height: 300px;
   /*opacity: 0.3;*/
 }
+
+div{
+  width: 300px;
+  display: inline-block;
+  float:left;
+  height: 300px;
+  /* border: solid 1px black; */
+  margin: 0px 20px 0px 0px;
+}
+
+div:last-child {
+  margin-right: 0px;
+}
+
+fieldset{
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid yellow;
+  height: auto+5px;
+  /* padding-bottom: 30px; */
+  padding: 30px 5px;
+}
+
+.questions {
+  clear: both;
+  font-size: 24px;
+  background-color: black;
+}
+
+.questions label {
+  display: block;
+  text-align: center;
+  border: 1px solid yellow;
+  padding: 5px;
+  width: 700px;
+  margin: 10px auto;
+}
+
+input {
+  visibility:hidden;
+  display:block;
+  width: 700px;
+}
+
+label {
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: red;
+}
+
 footer {
   clear: both;
   font-size: 16px;
@@ -70,17 +83,7 @@ footer {
   margin: 50px;
   padding: 10px;
 }
-input {
-    visibility:hidden;
-  display:block;
-  width: 700px;
-}
-label {
-    cursor: pointer;
-}
-input:checked + label {
-    color: red;
-}
+
 button{
   width: 200px;
 height: 50px;
