@@ -47,7 +47,7 @@
 .gauge__background {
 	z-index: 0;
 	position: absolute;
-	background-color: #1036b7;
+	background-color: red;
 	top: 0;
 	border-radius: 300px 300px 0 0;
 }
@@ -55,7 +55,7 @@
 .gauge__data {
 	z-index: 1;
 	position: absolute;
-	background-color: red;
+	background-color: #1036b7;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 300px 300px 0 0;
@@ -129,7 +129,7 @@
 .gauge__background { width: 240px; height: 120px; }
 .gauge__center { width: 144px; height: 72px; top: 48px; margin-left: 48px; }
 .gauge__data { width: 240px; height: 120px; }
-.gauge__needle { left: 120px; top: 100px; width: 120px; }
+.gauge__needle { left: 120px; top: 70px; width: 70px; }
 .gauge__labels { top: 120px; width: 240px; }
 .gauge__label--low { width: 48px; }
 .gauge__label--spacer { width: 144px; }
@@ -146,7 +146,7 @@
     .gauge__background { width: 300px; height: 150px; }
     .gauge__center { width: 180px; height: 90px; top: 60px; margin-left: 60px; }
     .gauge__data { width: 300px; height: 150px; }
-    .gauge__needle { left: 150px; top: 110px; width: 175px; }
+    .gauge__needle { left: 150px; top: 88px; width: 125px; }
     .gauge__labels { top: 150px; width: 300px; }
     .gauge__label--low { width: 60px; }
     .gauge__label--spacer { width: 180px; }
