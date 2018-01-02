@@ -3,7 +3,8 @@
 } */
 
 body {
-  font-family: Verdana, sans-serif;
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
   color: #FEEB32;
   background-image: url('pic/back.jpg');
   background-repeat: no-repeat;
