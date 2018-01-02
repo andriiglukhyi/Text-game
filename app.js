@@ -1,23 +1,39 @@
 'use strict'
 
-var questionArray = [
-  // fill in  
-  [],
-  [],
-  [],
-  []
-];
+
+var form = document.getElementById('form1');
+// answers.push(answer1);
+form.addEventListener('submit', getanswers);
 
 
-function Question(scenerio, a1, a2, a3) {
-  this.scenerio = scenerio;
-  this.a1 = a1;
-  this.a2 = a2;
-  this........;
-  //continue
-};
+function getanswers(){
+  event.preventDefault();
+  var data = [];
+  var data1 = [];
+  var score = 60;
+  for(var i=1; i<11; i++){
+    var answer = document.getElementsByName('answer'+[i]);
+    data.push(answer);
+    // console.log(data);
+  }
+  for (var question=0; question<data.length; question++){
+    for(var answer = 0; answer<data[question].length; answer++ ){
+      if (data[question][answer].checked === true){
+        data1.push(parseInt(data[question][answer].value));
+      }
+    }
+  }
+  for(var i=0; i<data1.length; i++ ){
+    score += data1[i];
+    console.log(score);
+  }
+}
 
 
-for (var i = 0; i < questionArray.length; i++) {
-  var q[i] = new Question(questionArray[i]);
-};
+
+
+// function counter(){
+//   result+= answer1[0].value;
+//   console.log(result);
+//   return result;
+// }
