@@ -4,7 +4,7 @@
 
 .slides {
     padding: 0;
-    width: 609px;
+    width: 960px;
     height: 420px;
     display: block;
     margin: 0 auto;
@@ -27,7 +27,7 @@
 .slide {
     top: 0;
     opacity: 0;
-    width: 609px;
+    width: 960px;
     height: 420px;
     display: block;
     position: absolute;
@@ -43,7 +43,7 @@
 }
 
 .nav label {
-    width: 60px;
+    width: 120px;
     height: 100%;
     display: none;
     position: absolute;
