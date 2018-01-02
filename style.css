@@ -21,23 +21,31 @@ div{
 div:last-child {
   margin-right: 0px;
 }
+fieldset{
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid yellow;
+  height: auto+5px;
+  /* padding-bottom: 30px; */
+  padding: 30px 5px;
+}
 .questions {
   clear: both;
   font-size: 24px;
   background-color: black;
 }
-.questions li {
-  margin-bottom: 10px;
+.questions label {
   text-align: center;
   border: 1px solid yellow;
   padding: 5px;
+  width: 700px;
+  margin: 10px auto;
+  margin-bottom: 10px;
 }
-.questions ul p {
+.questions input {
   margin:10px 35px 20px 35px;
 }
 .questions ul li {
-  width: 700px;
-  margin: 10px auto;
 }
 
 header p {
@@ -65,18 +73,13 @@ footer {
 input {
     visibility:hidden;
   display:block;
+  width: 700px;
 }
 label {
     cursor: pointer;
 }
 input:checked + label {
     color: red;
-}
-fieldset{
-  margin-bottom: 10px;
-text-align: center;
-border: 1px solid yellow;
-padding: 5px
 }
 button{
   width: 200px;
