@@ -1,6 +1,6 @@
 'use strict'
 
-
+var first = true;
 var form = document.getElementById('form1');
 // answers.push(answer1);
 form.addEventListener('submit', getanswers);
@@ -32,21 +32,20 @@ function getanswers(){
   console.log(score);
 }
 
+document.getElementById("demo").addEventListener("click", myFunction);
 
+function myFunction() {
+  if (first === true){
+    document.getElementById("demo").innerHTML = "Finish";
+    first = false;
+  } else {
+    document.getElementById("form1").remove();
+    var a = document.getElementById("form2");
+    a.style.display = "block";
 
+  }
+}
 
-// function counter(){
-//   result+= answer1[0].value;
-//   console.log(result);
-//   return result;
-// }
-
-// #### Gauge
-
-// The Gauge object encapsulates the behavior
-// of simple gauge. Most of the implementation
-// is in the CSS rules, but we do have a bit
-// of JavaScript to set or read the gauge value
 
 function Gauge(el) {
 

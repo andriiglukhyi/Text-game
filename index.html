@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="slider.css">
   <link rel="stylesheet" type="text/css" href="material-gauge.css">
   <link href="http://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="end.css">
 </head>
 <body>
   <header>
@@ -23,7 +24,7 @@
     </ul>
     <form id="form1">
 
-      <ul class="slides">
+      <ul class="slides" id = "slides">
           <input type="radio" name="radio-btn" id="img-1" checked />
           <li class="slide-container">
           <div class="slide">
@@ -221,7 +222,7 @@
           <li class="slide-container">
               <div class="slide">
                 <fieldset>
-                  <p><button input type="submit">RESULTS</button></p>
+                  <p><button input type="submit" id = 'demo'>RESULTS</button></p>
                   <section>
                     <div class="gauge gauge--liveupdate" id="gauge">
                       	<div class="gauge__container">
@@ -247,8 +248,24 @@
 
       </ul>
 
+
     </form>
-          </main>
+
+    <div id = 'form2'>
+    <div class="fade"></div>
+    <section class="star-wars">
+      <div class="crawl">
+        <div class="title">
+          <p>Episode IV</p>
+          <h1>A New Hope</h1>
+        </div>
+        <p>It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.</p>
+        <p>During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet.</p>
+        <p>Pursued by the Empire’s sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy….</p>
+      </div>
+    </section>
+  </div>
+</main>
 
   <footer><p>Created by: Alexander Bowers, Andrii Glukhyi, Gene Pieterson, & Bessie Arino</p>
   </footer>

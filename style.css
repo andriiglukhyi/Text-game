@@ -146,3 +146,11 @@ button{
   display: block;
   margin: auto;
 }
+#form2 {
+  display: none;
+  width: 960px;
+  height: 400px;
+  /*background: #000;*/
+  overflow: hidden;
+
+}
