@@ -64,6 +64,11 @@ fieldset label {
   background-color: #000;
 }
 
+.size {
+  width: 300px;
+  height: 300px;
+}
+
 input {
     visibility:hidden;
     display: block;
