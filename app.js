@@ -12,7 +12,7 @@ function getanswers(){
   var data = [];
   var data1 = [];
   score = 65;
-  for(var i=1; i<11; i++){
+  for(var i=1; i<12; i++){
     var answer = document.getElementsByName('answer'+[i]);
     data.push(answer);
     // console.log(data);
