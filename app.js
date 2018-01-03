@@ -6,13 +6,13 @@ var form = document.getElementById('form1');
 // answers.push(answer1);
 form.addEventListener('submit', getanswers);
 
-var score = 65;
+var score = 100;
 
 function getanswers(){
   event.preventDefault();
   var data = [];
   var data1 = [];
-  score = 65;
+  score = 100;
   for(var i=1; i<12; i++){
     var answer = document.getElementsByName('answer'+[i]);
     data.push(answer);
@@ -28,7 +28,7 @@ function getanswers(){
   for(var i=0; i<data1.length; i++ ){
     score += data1[i];
   }
-  var scaledScore = score / 130;
+  var scaledScore = score / 200;
   gauge.value(scaledScore);
   console.log(score);
 }
@@ -48,15 +48,15 @@ function myFunction() {
     b.style.display = "block";
 
   }
-  if ( score> 90){
-    document.getElementById("h1").innerHTML = "The Light is missing"
+  if ( score> 134){
+    document.getElementById("h1").innerHTML = "The Light is winning"
     document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName + ", you are a real Jedi, trnding to make good decisions. Peoples maatter to you because life is sacred. The sith don't stand a chance"
     }
-  if (  score < 40){
+  if (  score < 67){
     document.getElementById("h1").innerHTML = "The darkness inside You"
     document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName + ", Your mind is chaos. Peoples are nothing. Only You matter. The sith welcome You because You have no morals. Destroy everything and everyone"
     }
-  if (score>=40 && score<=90){
+  if (score>=67 && score<=134){
     document.getElementById("h1").innerHTML = "midle"
     document.getElementById("text").innerHTML =" sometinf for midle "
     }
