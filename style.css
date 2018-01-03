@@ -27,14 +27,6 @@ ul img {
   margin-left: 19px;
 }
 
-label img {
-  width: 100px;
-  display: inline-block;
-  /* float:left; */
-  height: 100px;
-  margin: 0px 10px 0px 0px;
-}
-
 ul:last-child {
   margin-right: 0px;
 }
@@ -69,14 +61,19 @@ input {
     display: block;
 }
 
+input:checked + label {
+  color: red;
+}
+
 label {
     cursor: pointer;
     display: block;
     transition: all 0.3s ease;
 }
 
-input:checked + label {
-    color: red;
+label img {
+  width: 180px;
+  height: 180px;
 }
 
 button{
@@ -85,6 +82,7 @@ button{
   display: block;
   margin: auto;
 }
+
 #form2 {
 
   display: none;
@@ -162,6 +160,11 @@ section.star-wars{
   position: absolute;
   bottom: 10px;
   left: 0px;
+}
+
+.inline {
+  display: inline-block;
+  height: 180px;
 }
 
 .border:hover {
