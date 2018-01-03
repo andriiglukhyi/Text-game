@@ -12,7 +12,7 @@ function getanswers(){
   var data = [];
   var data1 = [];
   score = 65;
-  for(var i=1; i<11; i++){
+  for(var i=1; i<12; i++){
     var answer = document.getElementsByName('answer'+[i]);
     data.push(answer);
     // console.log(data);
@@ -40,7 +40,7 @@ function myFunction() {
     first = false;
   } else {
     document.getElementById("form1").remove();
-    document.getElementById("picture-list").remove();
+    // document.getElementById("picture-list").remove();
     var a = document.getElementById("form2");
     a.style.display = "block";
     var b = document.getElementById("retake_botton");
