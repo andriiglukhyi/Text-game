@@ -146,17 +146,17 @@ button{
   clear: both;
   position: relative;
   width: 100%;
-  min-height: 60vh;
   top: -25px;
   background-image: linear-gradient(0deg, transparent, black 75%);
   z-index: 1;
+  min-height: 30vh;
 }
 .star-wars {
-  height: 300px
+  height: 250px;
   display: flex;
   justify-content: center;
   position: relative;
-  height: 800px;
+  /*height: 800px;*/
   color: #FEEB32;
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 500%;
@@ -193,4 +193,13 @@ button{
     top: -6000px;
     transform: rotateX(25deg) translateZ(-2500px);
   }
+}
+section.star-wars{
+  height: 300px;
+}
+
+
+#retake_botton {
+  display: none;
+  margin: 0 auto;
 }

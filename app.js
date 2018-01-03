@@ -40,8 +40,11 @@ function myFunction() {
     first = false;
   } else {
     document.getElementById("form1").remove();
+    document.getElementById("picture-list").remove();
     var a = document.getElementById("form2");
     a.style.display = "block";
+    var b = document.getElementById("retake_botton");
+    b.style.display = "block";
 
   }
 }
