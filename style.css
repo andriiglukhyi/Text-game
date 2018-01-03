@@ -5,8 +5,6 @@ body {
   background-image: url('pic/back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 960px;
-  margin: 0 auto;
 }
 
 header p {
@@ -14,8 +12,13 @@ header p {
   font-family: 'Star Jedi', arial;
   text-shadow: 4px 4px 4px white;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 960px;
+  margin: 30px auto;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
 }
 
 ul img {
@@ -172,12 +175,13 @@ section.star-wars{
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  }
+}
 
 footer {
-  clear: both;
-  font-size: 16px;
+  background-color: #000;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
-  margin: 50px;
+  margin-top: 50px;
   padding: 10px;
+}
