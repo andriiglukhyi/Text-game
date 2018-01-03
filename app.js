@@ -50,15 +50,16 @@ function myFunction() {
   }
   if ( score> 134){
     document.getElementById("h1").innerHTML = "The Light is winning"
-    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName + ", you are a real Jedi, trnding to make good decisions. Peoples maatter to you because life is sacred. The sith don't stand a chance"
+    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", you are a real Jedi, trnding to make good decisions. Peoples maatter to you because life is sacred. The sith don't stand a chance"
     }
   if (  score < 67){
     document.getElementById("h1").innerHTML = "The darkness inside You"
-    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName + ", Your mind is chaos. Peoples are nothing. Only You matter. The sith welcome You because You have no morals. Destroy everything and everyone"
+    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", Your mind is chaos. Peoples are nothing. Only You matter. The sith welcome You because You have no morals. Destroy everything and everyone"
     }
   if (score>=67 && score<=134){
-    document.getElementById("h1").innerHTML = "midle"
-    document.getElementById("text").innerHTML =" sometinf for midle "
+    document.getElementById("h1").innerHTML = "Nerf Herder"
+    document.getElementById("text").innerHTML = "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " +  userName.value + "You like to be neutral. Taking sides is for chumps. Money is what makes the universe tick. Why should you get stuck in a war that has nothing to do with you? Stick to what you are good at; taking care of yourself."
+
     }
   }
 
