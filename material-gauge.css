@@ -105,6 +105,8 @@
     display: table-cell;
     text-align: center;
     color: red;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .gauge__label--spacer {
@@ -115,6 +117,8 @@
     display: table-cell;
     text-align: center;
     color: #1036b7;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /*
