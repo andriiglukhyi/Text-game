@@ -50,6 +50,8 @@ function myFunction() {
 }
 
 
+addEventListener
+
 function Gauge(el) {
 
     // ##### Private Properties and Attributes
