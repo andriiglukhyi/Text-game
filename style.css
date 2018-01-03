@@ -28,6 +28,10 @@ height: 300px;
 /*opacity: 0.3;*/
 }
 
+#pic-align {
+  margin-left: 19px;
+}
+
 ul {
   width: 300px;
   display: inline-block;
