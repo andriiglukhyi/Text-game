@@ -61,6 +61,7 @@ function myFunction() {
     document.getElementById("text").innerHTML =" sometinf for midle "
     }
   }
+  
 
 
 
