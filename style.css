@@ -18,6 +18,14 @@ header p {
   margin-bottom: 30px;
 }
 
+ .user {
+   text-align: center;
+   display: block;
+   /* width: 300px; */
+   margin: 0 auto;
+ }
+
+
 ul img {
   width: 300px;
   height: 300px;
@@ -68,7 +76,16 @@ input {
     visibility:hidden;
     display: block;
 }
+form input {
+  visibility: visible;
+  align-content: center;
+}
 
+h2 {
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
 label {
     cursor: pointer;
     display: block;

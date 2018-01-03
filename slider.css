@@ -20,7 +20,7 @@
     -webkit-touch-callout: none;
 }
 
-.slides input { display: none; }
+.slides input[type="radio"] { display: none; }
 
 .slide-container { display: block; }
 
