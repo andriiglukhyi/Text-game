@@ -85,9 +85,9 @@ h2 {
 input:checked + label {
   color: red;
   box-shadow: inset 0 0 0 5px yellow;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 label {
     cursor: pointer;
