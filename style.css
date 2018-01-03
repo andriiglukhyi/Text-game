@@ -77,6 +77,10 @@ label {
 
 input:checked + label {
     color: red;
+    box-shadow: inset 0 0 0 5px #ffff4d;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 button{
@@ -95,7 +99,7 @@ button{
 }
 
 .border:hover {
-  box-shadow: inset 0 0 0 5px #53a7ea;
+  box-shadow: inset 0 0 0 5px #ffff4d;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
