@@ -212,7 +212,7 @@ section.star-wars{
   height: 180px;
 }
 
-.border:hover {
+.border:hover, .start:hover {
   box-shadow: inset 0 0 0 5px yellow;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
