@@ -44,6 +44,21 @@ td {
   width: 100px;
 }
 
+.start {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid yellow;
+  margin: 10px;
+  background-color: #000;
+  display: inline-block;
+  font-size: 24px;
+  width: 150px;
+  color: #FEEB32;
+}
+a:link, a:visited, a:hover, a:active {
+  color: #FEEB32;
+  text-decoration: none;
+}
 th {
 	color: white;
 }
@@ -54,10 +69,13 @@ tr {
 #retake_botton {
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 button{
+  width: 200px;
+  height: 50px;
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 footer {
   background-color: #000;
