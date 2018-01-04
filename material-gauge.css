@@ -29,6 +29,7 @@
 .gauge {
     background-color: transparent;
     position: relative;
+    margin-top: 50px;
 }
 
 .gauge__container {

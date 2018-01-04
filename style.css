@@ -5,7 +5,7 @@ body {
   background-image: url('pic/back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 900px;
+  height: 830px;
 }
 
 
@@ -90,6 +90,7 @@ input {
     visibility:hidden;
     display: block;
 }
+
 form input {
   visibility: visible;
   align-content: center;
@@ -194,6 +195,7 @@ section.star-wars{
 
 #retake_botton {
   display: none;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -242,12 +244,4 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-}
-#retake_botton section {
-  display: block;
-  margin: 0 auto;
-  width: 408px;
-}
-#retake_botton section a {
-  display: -webkit-inline-box;
 }
