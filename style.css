@@ -5,7 +5,9 @@ body {
   background-image: url('pic/back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 800px;
 }
+
 
 header p {
   font-size: 68px;
@@ -219,4 +221,16 @@ footer {
   text-align: center;
   margin-top: 50px;
   padding: 10px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+#retake_botton section {
+  display: block;
+  margin: 0 auto;
+  width: 408px;
+}
+#retake_botton section a {
+  display: -webkit-inline-box;
 }
