@@ -69,17 +69,17 @@ function myFunction() {
     b.style.display = "block";
 
   }
-  if ( score> 134){
-    document.getElementById("h1").innerHTML = "The Light is winning"
-    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", you are a real Jedi, trnding to make good decisions. Peoples maatter to you because life is sacred. The sith don't stand a chance"
+  if (score> 134){
+    document.getElementById("h1").innerHTML = "The Light is Winning"
+    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", you are a real Jedi. You tend to make good decisions. People maatter to you because life is sacred. The sith don't stand a chance!"
     }
-  if (  score < 67){
-    document.getElementById("h1").innerHTML = "The darkness inside You"
-    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", Your mind is chaos. Peoples are nothing. Only You matter. The sith welcome You because You have no morals. Destroy everything and everyone"
+  if (score < 67){
+    document.getElementById("h1").innerHTML = "The Darkness Inside You"
+    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. You are now Darth " + userName.value + ". Your mind is chaos. People are nothing. Only you matter. The sith welcome you because you have no morals. Destroy everything and everyone"
     }
   if (score>=67 && score<=134){
     document.getElementById("h1").innerHTML = "Nerf Herder"
-    document.getElementById("text").innerHTML = "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " +  userName.value + "You like to be neutral. Taking sides is for chumps. Money is what makes the universe tick. Why should you get stuck in a war that has nothing to do with you? Stick to what you are good at; taking care of yourself."
+    document.getElementById("text").innerHTML = "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " +  userName.value + ", you like to be neutral. Only chumps pick a side. Money is what makes the universe tick. Why should you get stuck in a war that has nothing to do with you? Stick to what you are good at; taking care of yourself."
 
     }
   }
