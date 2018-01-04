@@ -1,18 +1,19 @@
 'use strict'
 
+var userName = document.getElementById("username");
 var first = true;
 var form = document.getElementById('form1');
 // answers.push(answer1);
 form.addEventListener('submit', getanswers);
 
-var score = 65;
+var score = 100;
 
 function getanswers(){
   event.preventDefault();
   var data = [];
   var data1 = [];
-  score = 65;
-  for(var i=1; i<11; i++){
+  score = 100;
+  for(var i=1; i<12; i++){
     var answer = document.getElementsByName('answer'+[i]);
     data.push(answer);
     // console.log(data);
@@ -27,7 +28,7 @@ function getanswers(){
   for(var i=0; i<data1.length; i++ ){
     score += data1[i];
   }
-  var scaledScore = score / 130;
+  var scaledScore = score / 200;
   gauge.value(scaledScore);
   console.log(score);
 }
@@ -40,17 +41,32 @@ function myFunction() {
     first = false;
   } else {
     document.getElementById("form1").remove();
-    document.getElementById("picture-list").remove();
+    // document.getElementById("picture-list").remove();
     var a = document.getElementById("form2");
     a.style.display = "block";
     var b = document.getElementById("retake_botton");
     b.style.display = "block";
 
   }
-}
+  if ( score> 134){
+    document.getElementById("h1").innerHTML = "The Light is winning"
+    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", you are a real Jedi, trnding to make good decisions. Peoples maatter to you because life is sacred. The sith don't stand a chance"
+    }
+  if (  score < 67){
+    document.getElementById("h1").innerHTML = "The darkness inside You"
+    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", Your mind is chaos. Peoples are nothing. Only You matter. The sith welcome You because You have no morals. Destroy everything and everyone"
+    }
+  if (score>=67 && score<=134){
+    document.getElementById("h1").innerHTML = "Nerf Herder"
+    document.getElementById("text").innerHTML = "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " +  userName.value + "You like to be neutral. Taking sides is for chumps. Money is what makes the universe tick. Why should you get stuck in a war that has nothing to do with you? Stick to what you are good at; taking care of yourself."
+
+    }
+  }
 
 
-addEventListener
+
+
+
 
 function Gauge(el) {
 
