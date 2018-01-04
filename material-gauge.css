@@ -88,7 +88,7 @@
     z-index: 4;
     /* background-image: url("lightsaber.png"); */
     /* background-color: #E91E63; */
-    height: 100px;
+    height: 20px;
     position: absolute;
     -webkit-transform-origin: left center;
        -moz-transform-origin: left center;
@@ -135,7 +135,7 @@
 .gauge__background { width: 240px; height: 120px; }
 .gauge__center { width: 144px; height: 72px; top: 48px; margin-left: 48px; }
 .gauge__data { width: 240px; height: 120px; }
-.gauge__needle { left: 120px; top: 70px; width: 70px; }
+.gauge__needle { left: 120px; top: 70px; width: 80px; }
 .gauge__labels { top: 120px; width: 240px; }
 .gauge__label--low { width: 48px; }
 .gauge__label--spacer { width: 144px; }
@@ -152,7 +152,7 @@
     .gauge__background { width: 300px; height: 150px; }
     .gauge__center { width: 180px; height: 90px; top: 60px; margin-left: 60px; }
     .gauge__data { width: 300px; height: 150px; }
-    .gauge__needle { left: 150px; top: 88px; width: 125px; }
+    .gauge__needle { left: 150px; top: 140px; width: 150px; }
     .gauge__labels { top: 150px; width: 300px; }
     .gauge__label--low { width: 60px; }
     .gauge__label--spacer { width: 180px; }
