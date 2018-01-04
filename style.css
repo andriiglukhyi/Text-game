@@ -5,7 +5,7 @@ body {
   background-image: url('pic/back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 900px;
+  height: 830px;
 }
 
 
@@ -55,7 +55,7 @@ fieldset {
 
 fieldset p {
   margin-top: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -78,6 +78,7 @@ fieldset label {
   display: inline-block;
   font-size: 24px;
   width: 150px;
+  color: #FEEB32;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -89,6 +90,7 @@ input {
     visibility:hidden;
     display: block;
 }
+
 form input {
   visibility: visible;
   align-content: center;
@@ -193,6 +195,7 @@ section.star-wars{
 
 #retake_botton {
   display: none;
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -241,12 +244,4 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
-}
-#retake_botton section {
-  display: block;
-  margin: 0 auto;
-  width: 408px;
-}
-#retake_botton section a {
-  display: -webkit-inline-box;
 }
