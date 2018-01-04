@@ -35,13 +35,18 @@ main {
 	/* border: 10px solid black; */
   display: block;
   margin: 30 auto;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  padding: 5px 20px;
+  /* height: 380px; */
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 td {
 	padding: 10px;
 	 /* border: 1px solid black; */
   /* display: inline-block; */
-  width: 600px;
+  width: 700px;
   text-align: right;
 }
 
@@ -49,6 +54,7 @@ td {
   padding: 8px;
   text-align: center;
   border: 1px solid yellow;
+  border-radius: 5px;
   margin: 10px;
   background-color: #000;
   display: inline-block;
