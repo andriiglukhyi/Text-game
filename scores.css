@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: orange 1px dotted;
-}
+} */
 
 
 body {
@@ -24,12 +24,12 @@ main {
   margin: 0 auto;
 }
 
- .user {
+ /* .user {
    text-align: center;
    display: block;
-   /* width: 300px; */
+   width: 300px;
    margin: 0 auto;
- }
+ } */
 
  table {
 	/* border: 10px solid black; */
@@ -40,8 +40,9 @@ main {
 td {
 	padding: 10px;
 	 /* border: 1px solid black; */
-  display: inline-block;
-  width: 100px;
+  /* display: inline-block; */
+  width: 600px;
+  text-align: right;
 }
 
 .start {
@@ -61,6 +62,8 @@ a:link, a:visited, a:hover, a:active {
 }
 th {
 	color: white;
+  width: 200px;
+  text-align: left;
 }
 tr {
   display: block;
