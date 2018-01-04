@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 830px;
+  border-radius: 5px;
 }
 
 header p {
@@ -28,6 +29,7 @@ main {
 fieldset {
   text-align: center;
   border: 1px solid yellow;
+  border-radius: 5px;
   padding: 20px 140px;
   height: 380px;
   background-color:rgba(0, 0, 0, 0.5);
@@ -46,6 +48,7 @@ fieldset label {
   padding: 8px;
   text-align: center;
   border: 1px solid yellow;
+  border-radius: 5px;
   margin: 10px;
   background-color: #000;
   font-size: 18px;
@@ -55,6 +58,7 @@ fieldset label {
   padding: 8px;
   text-align: center;
   border: 1px solid yellow;
+  border-radius: 5px;
   margin: 10px;
   background-color: #000;
   display: inline-block;

@@ -18,7 +18,7 @@ function create() {
   col.textContent = 'Name';
   row.appendChild(col);
 
-  col = document.createElement('th');
+  col = document.createElement('td');
   col.textContent = 'Score';
   row.appendChild(col);
 
@@ -42,9 +42,9 @@ function create() {
     }
 
     row = document.createElement('tr');
-    col = document.createElement('td');
+    col = document.createElement('th');
 
-    col.innerHTML = '<img src =\"logo/' + logo + '\">' + name ;
+    col.innerHTML = '<img src =\"logo/' + logo + '\">' + '   ' + name ;
     row.appendChild(col);
 
     col = document.createElement('td');
