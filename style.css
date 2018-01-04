@@ -206,3 +206,11 @@ footer {
   margin-top: 50px;
   padding: 10px;
 }
+#retake_botton section {
+  display: block;
+  margin: 0 auto;
+  width: 408px;
+}
+#retake_botton section a {
+  display: -webkit-inline-box;
+}
