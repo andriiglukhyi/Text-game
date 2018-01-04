@@ -21,8 +21,6 @@ function save() {
 }
 
 
-
-
 var first = true;
 var form = document.getElementById('form1');
 // answers.push(answer1);

@@ -5,6 +5,7 @@ var scores = localStorage.scores.split(',');
 var list = document.getElementById('last')
 
 
+
 function create() {
   var row = document.createElement('tr');
   var col = document.createElement('th');
