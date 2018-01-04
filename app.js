@@ -62,6 +62,7 @@ function myFunction() {
     first = false;
   } else {
     document.getElementById("form1").remove();
+    document.getElementById('video').remove();
     // document.getElementById("picture-list").remove();
     var a = document.getElementById("form2");
     a.style.display = "block";
