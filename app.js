@@ -1,6 +1,26 @@
 'use strict'
-
 var userName = document.getElementById("username");
+if (localStorage.usernames) {
+var list = localStorage.usernames.split(',');
+} else {
+var list = [];
+}
+
+if (localStorage.scores) {
+var scores = localStorage.scores.split(',');
+} else {
+var scores = [];
+}
+
+
+function save() {
+  list.push(userName.value);
+  localStorage.usernames = list;
+  scores.push(score);
+  localStorage.scores = scores;
+}
+
+
 var first = true;
 var form = document.getElementById('form1');
 // answers.push(answer1);
@@ -31,6 +51,7 @@ function getanswers(){
   var scaledScore = score / 200;
   gauge.value(scaledScore);
   console.log(score);
+  save ();
 }
 
 document.getElementById("demo").addEventListener("click", myFunction);
@@ -62,11 +83,6 @@ function myFunction() {
 
     }
   }
-
-
-
-
-
 
 function Gauge(el) {
 

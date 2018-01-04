@@ -1,0 +1,59 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  font-size: 14px;
+  color: #FEEB32;
+  background-image: url('pic/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+header p {
+  font-size: 68px;
+  font-family: 'Star Jedi', arial;
+  text-shadow: 4px 4px 4px white;
+  text-align: center;
+  width: 960px;
+  margin: 30px auto;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+ .user {
+   text-align: center;
+   display: block;
+   /* width: 300px; */
+   margin: 0 auto;
+ }
+
+ table {
+	border: 10px solid black;
+  display: block;
+  margin: 30 auto;
+}
+
+td {
+	padding: 10px;
+	 border: 1px solid black;
+  display: inline-block;
+  width: 70px;
+}
+
+th {
+	color: white;
+}
+tr {
+  display: block;
+  margin: 25px auto;
+}
+#retake_botton {
+  display: block;
+  margin: 0 auto;
+}
+button{
+  display: block;
+  margin: 0 auto;
+}

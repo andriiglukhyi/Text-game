@@ -2,13 +2,14 @@
 An opensource text game
 
 
+
 Theme : star wars
 
 Style/layout:  Black background
 	Background image-stars
 	Text color Yellow
 	Star wars font style
-	
+
 Heading- "Star Wars Adventure"
 
 Container with scenerio (replace with JS)
@@ -40,7 +41,7 @@ Local storage
 
 Video or scrolling text in background
 
--in the beginning the user enters their name, next they choose the light side or the dark side, then the user is given 10+ scenarios that they respond to.  Each choice has a morality point value attached.  at the end the user is evaluated and classed as either good, neutral or bad.  this is compared to their initial dark/light side choice and tells you whether you chose correctly. 
+-in the beginning the user enters their name, next they choose the light side or the dark side, then the user is given 10+ scenarios that they respond to.  Each choice has a morality point value attached.  at the end the user is evaluated and classed as either good, neutral or bad.  this is compared to their initial dark/light side choice and tells you whether you chose correctly.
  -
  -
  -javascript content slider
