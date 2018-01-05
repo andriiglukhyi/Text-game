@@ -72,7 +72,7 @@ function myFunction() {
   }
   if (score> 134){
     document.getElementById("h1").innerHTML = "The Light is Winning"
-    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", you are a real Jedi. You tend to make good decisions. People maatter to you because life is sacred. The sith don't stand a chance!"
+    document.getElementById("text").innerHTML ="It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. " + userName.value + ", you are a real Jedi. You tend to make good decisions. People matter to you because life is sacred. The sith don't stand a chance!"
     }
   if (score < 67){
     document.getElementById("h1").innerHTML = "The Darkness Inside You"
